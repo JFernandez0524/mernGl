@@ -19,7 +19,7 @@ And a front end can be added to create full stack app.
 ### RUN
 
 1. build image with docker file. [^1]
-[^1] docker build -t test:latest .
+[^1]: docker build -t test:latest .
 2. Run in docker container [^2]
-[^2] docker run -d --name test-container -p 127.0.0.1:3001:3001 test:latest
+[^2]: docker run -d --name test-container -p 127.0.0.1:3001:3001 test:latest
 3. Go to localhost:3001 on web browser.
